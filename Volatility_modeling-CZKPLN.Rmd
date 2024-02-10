@@ -1,0 +1,48 @@
+---
+title: "Volatility modeling- CZK/PLN"
+author: "Grzegorz"
+date: "2024-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Import data
+
+The dataset I'll be analyzing concerns the daily exchange rate between the Czech koruna and the Polish złoty. These data cover the period from January 2, 2014, to February 2, 2024.
+
+```{r cars, include=FALSE}
+install.packages("quantmod")
+install.packages("xts")
+install.packages("fGarch")
+install.packages("PerformanceAnalytics")
+#install.packages("Closexlsx")
+install.packages("rugarch")
+install.packages("readxl")
+
+library(quantmod)
+library(xts)
+library(fGarch)
+library(PerformanceAnalytics)
+#library(Closexlsx) 
+library(rugarch) 
+library(readxl)
+```
+
+Below are the first five observations:
+
+```{r cars}
+head(data_a)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
