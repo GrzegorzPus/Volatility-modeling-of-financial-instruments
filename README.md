@@ -64,8 +64,39 @@ The second project focuses on analyzing the returns of the CZK/PLN exchange rate
 
 - **Programming Languages**: R
 - **Libraries**: `quantmod`, `rugarch`, `ggplot2`
+
+---
 <br>
 
+## 📈 Project 3: [Cointegration Analysis](https://github.com/GrzegorzPus/Volatility-modeling-of-financial-instruments/blob/main/Cointegration%20Study.xlsx)
+
+The third project involves performing a cointegration analysis using Excel. The project includes the following key steps:
+
+1. **Time Series Plotting**:
+   - Created time series plots of the modeled data with dates on the x-axis to visualize trends and relationships.
+
+2. **(A)DF Tests**:
+   - Conducted Augmented Dickey-Fuller (ADF) tests on individual variables to check for stationarity.
+
+3. **Engle-Granger Procedure**:
+   - Applied the Engle-Granger two-step procedure to test for cointegration between the time series.
+
+4. **ECM Model**:
+   - Developed an Error Correction Model (ECM) to describe the short-term dynamics of the cointegrated series.
+<br>
+
+   ### 📊 Example Visualizations
+
+  ![image](https://github.com/user-attachments/assets/1b989aec-a331-4c84-9737-51d601092b10)
+   *Logaritmic return volatility chart*
+<br>
+<br>
+
+## 🛠️ Technologies
+
+- **Tools**: Excel
+  - **Excel**: Built-in functions and tools
+<br>
 
 ## 👥 Contact
 
@@ -77,4 +108,4 @@ Thank you for visiting my repository!
 
 ---
 
-#Python #R #Finance #GARCH #DataAnalysis #MachineLearning #Investments #Microsoft #TimeSeriesAnalysis
+#Python #R #Excel #Finance #GARCH #Cointegration #DataAnalysis #MachineLearning #Investments #Microsoft #TimeSeriesAnalysis
